@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Default Point Spot Style_BACK -->
+  <style name="IconDefaultPointSpotStyle_BACK"
+         url="%FIRSTXML%/spots/hotspot_direction_user_defaultpoint0.png"
+         visible="false"
+         rotate="180"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_BACK"
+         onover="onoverIconDefaultPointSpotStyle_BACK"
+         onout="onoutIconDefaultPointSpotStyle_BACK"
+
+
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_BACK">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_BACK">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_BACK">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_FILM_01 -->
+  <style name="IconDefaultPointSpotStyle_FILM-01"
+         url="%FIRSTXML%/spots/but_play_film_01_user_defaultpoint3.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_FILM-01"
+         onover="onoverIconDefaultPointSpotStyle_FILM-01"
+         onout="onoutIconDefaultPointSpotStyle_FILM-01"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_FILM-01">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_FILM-01">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_FILM-01">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_GIRAFFE -->
+  <style name="IconDefaultPointSpotStyle_GIRAFFE"
+         url="%FIRSTXML%/spots/but_giraffe_user_defaultpoint5.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_GIRAFFE"
+         onover="onoverIconDefaultPointSpotStyle_GIRAFFE"
+         onout="onoutIconDefaultPointSpotStyle_GIRAFFE"
+
+         height="150"
+         width="150"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_GIRAFFE">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_GIRAFFE">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_GIRAFFE">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_CAMEL -->
+  <style name="IconDefaultPointSpotStyle_CAMEL"
+         url="%FIRSTXML%/spots/but_camel_user_defaultpoint6.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_CAMEL"
+         onover="onoverIconDefaultPointSpotStyle_CAMEL"
+         onout="onoutIconDefaultPointSpotStyle_CAMEL"
+
+         height="150"
+         width="150"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_CAMEL">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_CAMEL">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_CAMEL">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_COW -->
+  <style name="IconDefaultPointSpotStyle_COW"
+         url="%FIRSTXML%/spots/but_cow_user_defaultpoint7.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_COW"
+         onover="onoverIconDefaultPointSpotStyle_COW"
+         onout="onoutIconDefaultPointSpotStyle_COW"
+
+         height="150"
+         width="150"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_COW">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_COW">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_COW">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_ALL -->
+  <style name="IconDefaultPointSpotStyle_ALL"
+         url="%FIRSTXML%/spots/but_all_user_defaultpoint8.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_ALL"
+         onover="onoverIconDefaultPointSpotStyle_ALL"
+         onout="onoutIconDefaultPointSpotStyle_ALL"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_ALL">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_ALL">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_ALL">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_FILM_02 -->
+  <style name="IconDefaultPointSpotStyle_FILM-02"
+         url="%FIRSTXML%/spots/but_play_film_02_user_defaultpoint10.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_FILM-02"
+         onover="onoverIconDefaultPointSpotStyle_FILM-02"
+         onout="onoutIconDefaultPointSpotStyle_FILM-02"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_FILM-02">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_FILM-02">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_FILM-02">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_FILM_03 -->
+  <style name="IconDefaultPointSpotStyle_FILM-03"
+         url="%FIRSTXML%/spots/but_play_film_03_user_defaultpoint11.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_FILM-03"
+         onover="onoverIconDefaultPointSpotStyle_FILM-03"
+         onout="onoutIconDefaultPointSpotStyle_FILM-03"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_FILM-03">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_FILM-03">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_FILM-03">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_FILM_04 -->
+  <style name="IconDefaultPointSpotStyle_FILM-04"
+         url="%FIRSTXML%/spots/but_play_film_04_user_defaultpoint12.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_FILM-04"
+         onover="onoverIconDefaultPointSpotStyle_FILM-04"
+         onout="onoutIconDefaultPointSpotStyle_FILM-04"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_FILM-04">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_FILM-04">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_FILM-04">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_FILM_05 -->
+  <style name="IconDefaultPointSpotStyle_FILM-05"
+         url="%FIRSTXML%/spots/but_play_film_05_user_defaultpoint13.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_FILM-05"
+         onover="onoverIconDefaultPointSpotStyle_FILM-05"
+         onout="onoutIconDefaultPointSpotStyle_FILM-05"
+
+         height="200"
+         width="200"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_FILM-05">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_FILM-05">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_FILM-05">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_CROC -->
+  <style name="IconDefaultPointSpotStyle_CROC"
+         url="%FIRSTXML%/spots/but_croco_user_defaultpoint14.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_CROC"
+         onover="onoverIconDefaultPointSpotStyle_CROC"
+         onout="onoutIconDefaultPointSpotStyle_CROC"
+
+         height="150"
+         width="150"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_CROC">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_CROC">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_CROC">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Default Point Spot Style_ELE -->
+  <style name="IconDefaultPointSpotStyle_ELE"
+         url="%FIRSTXML%/spots/but_ele_user_defaultpoint15.png"
+         visible="false"
+         alpha="0.8"
+         onhover="onhoverIconDefaultPointSpotStyle_ELE"
+         onover="onoverIconDefaultPointSpotStyle_ELE"
+         onout="onoutIconDefaultPointSpotStyle_ELE"
+
+         height="150"
+         width="150"
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle_ELE">
+    showtooltip('hotspot');
+  </action>
+
+  <action name="onoverIconDefaultPointSpotStyle_ELE">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle_ELE">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+</krpano>
