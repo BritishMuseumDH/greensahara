@@ -109,6 +109,33 @@
             -o-user-select: none;
             user-select: none;
         }
+
+     .footer {
+            font-family: "Helvetica Neue", "helvetica", "arial", sans-serif;
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            padding: 0 0 15px 15px;
+            font-size: 12px;
+            transition: all 0.5s;
+            transform-origin: 0 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 5px;
+            transition: all 0.5s;
+        }
+
+        .footer:hover {
+            transform: scale(1.2);
+        }
+
+        .footer:hover a{
+            background: rgba(0, 0, 0, 1);
+        }
     </style>
     <!--[if !IE]><!-->
     <script type="text/javascript" src="indexdata/lib/jquery-2.1.1.min.js" data-cookieconsent="ignore"></script>
@@ -333,6 +360,11 @@
                 }
             </script>
         </div>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="https://www.britishmuseum.org/cookies" target="_blank">Cookie information</a>
+        </p>
     </div>
 </body>
 
